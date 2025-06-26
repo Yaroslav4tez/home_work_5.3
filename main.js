@@ -9,7 +9,9 @@ if (input === null || input.trim() === "" || !Number.isInteger(Number(input)) ||
         const sq = i * i;
         if (sq <= n) {
             console.log(`Number ${i} its square ${sq}, which is not biges than ${n}`);
-        } 
+        } else {
+            break;
+        }
     } 
     
 }
